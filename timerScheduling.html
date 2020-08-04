@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer And Scheduler</title>
+    <link rel="stylesheet" href="./CSS/timerScheduling.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="buttonHeaderLikeDiv">
+            <button data-time="3000">Lunch</button>
+            <button data-time="1800">Prayer</button>
+            <button data-time="900">Tea</button>            
+            <form name="minuteInputForm">
+                <input type="text" name="minuteInput" id="minInput" placeholder="Enter Your Time In Seconds" required>
+            </form>
+        </div>
+        <div class="timerDisplay">0:00</div>
+        <div class="returnTime"></div>
+    </div>
+    <script src="./JS/timerScheduling.js"></script>
+</body>
+</html>
